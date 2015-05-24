@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/onlyyuanjiao"
+    android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/movie_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#cc555555"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="2dp" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/movie_score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="2dp" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/movie_collect_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp" />
+    </LinearLayout>
+
+</FrameLayout>
